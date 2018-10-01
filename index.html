@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.3/normalize.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="main.css" type="text/css">
+	
+	<title>Welcome to my homepage</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/nivo-lightbox/1.3.1/nivo-lightbox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script src="js/script.js"></script>
+	
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+	<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+		<div class="container">
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">					
+					<li class="active"><a href="#home">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#skills">SKILLS</a></li>
+					<li><a href="#contact">CONTACT</a></li>		
+				</ul>			
+			</div>
+		</div>
+	</section>
+	
+	<section id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<h1><span id="intro">안녕하세요!</span></h1>
+					
+					<ul class="social">
+						<li><a href="https://www.facebook.com/hangnguyen160997"><i class="fa fa-facebook-official"></i></a></li>
+						<li><a href="https://www.instagram.com/xiaotaiyang16997/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/hang-nguyen-1609"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<div class="section-title">
+						<h1 class="heading bold">About</h1>
+						<hr>
+					</div>
+				</div>
+				
+			
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<div class="section-title">
+						<h1 class="heading bold">Skills</h1>
+						<hr>
+					</div>
+				</div>
+				
+				<div class="col-md-6 wow fadeIn animated">
+					<ul>
+						<li>
+							<span class="skill-percent html"></span>
+							<strong>HTML</strong>
+						</li>
+						<li>
+							<span class="skill-percent css"></span>
+							<strong>CSS</strong>
+						</li>
+						<li>
+							<span class="skill-percent js"></span>
+							<strong>JavaScript</strong>
+						</li>
+						<li>
+							<span class="skill-percent jquery"></span>
+							<strong>JQuery</strong>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="col-md-6 wow fadeIn animated">
+					<ul>
+						<li>
+							<span class="skill-percent java"></span>
+							<strong>Java</strong>
+						</li>
+						<li>
+							<span class="skill-percent csharp"></span>
+							<strong>C#</strong>
+						</li>
+						<li>
+							<span class="skill-percent sql"></span>
+							<strong>SQL</strong>
+						</li>
+						<li>
+							<span class="skill-percent android"></span>
+							<strong>Android</strong>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<div class="section-title">
+						<h1 class="heading bold">Contact</h1>
+						<hr>
+					</div>
+				</div>
+				
+				<div class="col-md-12 col-sm-12">
+					<form class="wow fadeIn animated" action="email.php" method="POST" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+						<div class="col-md-6 col-sm-6">
+							<strong>Name:</strong>
+							<input class="form-control" type="text" name="name" placeholder="Your name" required>
+						</div>
+						
+						<div class="col-md-6 col-sm-6">
+							<strong>Email:</strong>
+							<input class="form-control" type="email" name="email" placeholder="Your email" required>
+						</div>
+						
+						<div class="col-md-12 col-sm-12">
+							<strong>Message:</strong>
+							<textarea class="form-control" name="comment" placeholder="Your message" rows="9"></textarea>
+						</div>
+						
+						<div class="col-md-2 col-sm-6 col-centered">
+							<input class="form-control" type="submit" value="Send">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="music.html">Music</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<section>
+  <img class="mySlides" src="images/spring.jpeg">
+  <img class="mySlides" src="images/summer.jpeg">
+  <img class="mySlides" src="images/autumn.jpeg">
+  <img class="mySlides" src="images/winter.jpeg">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+-->
+</body>
+</html>

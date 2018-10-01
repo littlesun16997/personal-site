@@ -1,0 +1,416 @@
+body {
+    background: #ffffff;
+    font-family: sans-serif;
+    position: relative;
+  }
+::-moz-selection {
+    background: #61df37;
+    color: #fff;
+}
+
+::selection {
+    background: #61df37;
+    color: #fff;
+}
+html, body {
+     width: 100%;
+     overflow-x: hidden;
+  }
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h1 {
+  text-transform: capitalize;
+}
+.heading {
+  font-size: 20px;
+}
+.subheading {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  line-height: 28px;
+  font-size: 15px;
+}
+
+a {
+  outline: none !important;
+}
+
+.section-title strong {
+	color: #00C6D7;
+  	font-size: 56px;
+}
+
+.section-title h1 {
+	font-size: 40px;
+  text-align: center;
+}
+
+.section-title {
+  padding-bottom: 32px;
+}
+
+.medium-icon {
+  font-size: 32px !important;
+}
+
+#about, #education, #portfolio, #skills, #contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* ==========================================================================
+navigation section
+========================================================================== */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.custom-navbar {
+    background: #4B4B4B;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+.custom-navbar .navbar-brand  {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 24px;
+}
+.custom-navbar .navbar-brand .navbar-toggle {
+    background: #00c6d7;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+    }
+.custom-navbar .nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    }
+.custom-navbar .nav li a:hover {
+  	background: transparent;
+   color: #eeeeee;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.custom-navbar .nav li.active > a {
+      color: #fef65b;
+    }
+.custom-navbar .navbar-toggle {
+        border: none;
+        padding-top: 10px;
+    }
+.custom-navbar .navbar-toggle .icon-bar {
+        background: #00c6d7;
+        border-color: transparent;
+    }
+@media(min-width:768px){
+    .custom-navbar {
+            background: #4B4B4B;
+            padding: 10px;
+            border-bottom: 0;
+            background: 0 0;
+         }
+    .custom-navbar.top-nav-collapse {
+            padding: 8px;
+            background: #4B4B4B;
+        }
+}
+
+
+/* ==========================================================================
+home section
+========================================================================== */
+#home {
+  background: #161415 url(images/bg-header.jpg) no-repeat bottom left;
+  background-size: cover !important;
+  overflow: hidden;
+  background-position: center;
+  color: #ffffff;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+#home h1 {
+  font-size: 60px;
+}
+#home h4 {
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  padding-top: 15px;
+}
+#home hr {
+  width: 300px;
+}
+.social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+.social li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+}
+.social li a {
+  color: #fff;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ==========================================================================
+about section
+========================================================================== */
+#about {
+  background: #3B3B3B;
+  color: #ffffff;
+}
+#about hr {
+  border: none;
+  height: 3px;
+  color: #fff; /* old IE */
+  background-color: #fff; /* Modern Browsers */
+}
+#map {
+  height: 100px;
+}
+.nav-tabs {
+  margin-top: 20px;
+  border-bottom: 1px solid #606060;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+	display: block;
+  	color: #ffffff;
+  	font-size: 16px;
+  	padding: 10px 20px;
+  	border: 0;
+  	border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+  background-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #00c6d7;
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: transparent;
+}
+#about .tab-content {
+  padding-top: 20px;
+  text-align: justify;
+}
+a {
+  color: #00b4ff;
+}
+.tab-content a:hover, .tab-content a:link{
+	color: #00b4ff;
+	text-decoration: none;
+}
+ul h4 {
+  text-indent: 10px;
+}
+
+#about .avatar {
+  position: relative;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+#about img {
+  width: 250px;
+  height: 250px;
+}
+#mycontact ul {
+  list-style: none;
+}
+.fa-wordpress, .fa-phone, .fa-envelope, .fa-facebook-square {
+  font-size: 16px;
+}
+#mycontact li {
+  letter-spacing: 1px;  
+}
+
+#workinfo ul li:first-child {
+  list-style: none;
+}
+
+/* ==========================================================================
+skills section
+========================================================================== */
+#skills {
+	background-color: #e1b6c0;
+}
+#skills ul {
+  list-style: none;
+  padding-top: 50px;
+}
+#skills li {
+  position: relative;
+  margin-bottom: 50px;
+  background: #ddd;
+  height: 30px;
+  border-radius: 20px;
+}
+#skills strong {
+  text-transform: uppercase;
+  position: relative;
+  top: -25px;
+  letter-spacing: 2px;
+}
+
+.skill-percent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding-right: 24px;
+  display: inline-block;
+  height: 30px;
+  line-height: 40px;
+  border-radius: 20px;
+}
+
+#skills .html {
+  background-color: #df5037;
+  width: 65%;
+}
+#skills .css {
+  background-color: #dfa437;
+  width: 60%;
+}
+#skills .js {
+  background-color: #a7df37;
+  width: 70%;
+}
+#skills .jquery {
+  background-color: #37df6a;
+  width: 60%;
+}
+#skills .java {
+  background-color: #37dfd0;
+  width: 70%;
+}
+#skills .sql {
+  background-color: #3772df;
+  width: 75%;
+}
+#skills .csharp {
+  background-color: #d537df;
+  width: 40%;
+}
+#skills .android {
+  background-color: #df375d;
+  width: 60%;
+}
+
+/* ==========================================================================
+Contact section
+========================================================================== */
+#contact {
+  background: url(images/contact-bg.jpg) no-repeat top center;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  color: #06023e;
+}
+
+#contact ul li {
+  list-style: none;
+}
+
+#contact strong {
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 1px;
+}
+#contact .form-control {
+  border: 2px solid #ffffff;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+  resize: none;
+}
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+#contact input {
+  height: 30px;
+}
+#contact input[type="submit"] {
+  background: #7e8084;
+  border: 3px solid #7e8084;
+  letter-spacing: 1px;
+  margin-top: 18px;
+  height: 50px;
+  color: #ffffff;
+}
+#contact input[type="submit"]:hover {
+  color: #6600ff;
+}
+
+@media screen and (min-width: 992px) {
+  @-moz-document url-prefix() {
+    #portfolio .col-lg-4,
+    #portfolio .col-md-4 {
+      width: 33.333%;
+    }
+  }    
+}
+
+
+/* ==========================================================================
+media quires for mobile
+========================================================================== */
+@media (max-width: 440px) {
+  #home {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
+  }
+}
